@@ -39,10 +39,6 @@ export default {
       selectedColumns.value = columnOptions[0];
     };
 
-    const updateGrid = () => {
-      // Implement grid update logic if needed
-    };
-
     return {
       columnOptions,
       selectedColumns,
@@ -50,7 +46,6 @@ export default {
       addBox,
       removeBox,
       resetGrid,
-      updateGrid,
     };
   },
 };
